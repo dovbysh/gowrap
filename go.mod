@@ -1,5 +1,9 @@
 module github.com/hexdigest/gowrap
 
+replace (
+	github.com/hexdigest/gowrap => ./
+)
+
 require (
 	github.com/gojuno/minimock/v3 v3.0.4
 	github.com/golangci/golangci-lint v1.37.1 // indirect
